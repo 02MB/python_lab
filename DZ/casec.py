@@ -124,6 +124,20 @@ print(list_310[0])
 list_310.append("fgfg")
 list_310.insert(0, "fff")
 print(list_310)
+#4-1
+print("\n\n\n\n\n\n\n\n\n")
+pizza_list = ['pizza_1', 'pizza_2', 'pizza_3']
+for pizza in pizza_list:
+    print(pizza)
+for pizza in pizza_list:
+    print("I like pepperoni pizza "+ pizza.title())
+print("I realy love pizza!")
+pets = ['cat', 'dog', 'mouse']
+for pet in pets:
+    print(pet)
+    print("A dog would make a great pet " + pet)
+print("Any of these animals would make a great pet!")
 
+print("\n\n\n\n\n\n\n\n\n")
 
 

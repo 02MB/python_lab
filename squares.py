@@ -19,3 +19,6 @@ print(number_list)
 print("min: " + str(min(number_list)))
 print("max: " + str(max(number_list)))
 print("sum: " + str(sum(number_list)))
+
+squares = [value**2 for value in range(1,11)]
+print(squares)

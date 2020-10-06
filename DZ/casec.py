@@ -132,6 +132,7 @@ for pizza in pizza_list:
 for pizza in pizza_list:
     print("I like pepperoni pizza "+ pizza.title())
 print("I realy love pizza!")
+#4-2
 pets = ['cat', 'dog', 'mouse']
 for pet in pets:
     print(pet)
@@ -139,5 +140,41 @@ for pet in pets:
 print("Any of these animals would make a great pet!")
 
 print("\n\n\n\n\n\n\n\n\n")
-
+#4-3
+a = range(1,21)
+for b in a:
+    print("Число: " +str(b))
+#4-4
+# a = range(1,1000000)
+# for b in a:
+#     print("Число: " +str(b))
+#4-5
+a = range(1,1000001)
+print("min число в 1 000 000 это: " + str(min(a)))
+print("max число в 1 000 000 это: " + str(max(a)))
+print("сумма чисел 1 000 000 это: " + str(sum(a)))
+#4-6
+a = range(1, 21, 2)
+for b in a:
+    print("нечетные числа диапозона 1-20: " + str(b))
+#4-7
+a = [3,6,9,12,15,18,21,24,27,30]
+for b in a:
+    print(b)
+print(a)
+#4-8
+a = range(1,11)
+for b in a:
+    print(b**3)
+#4-9
+a = [b**3 for b in range(1,11)]
+print(a)
+#4-10
+my_foods = ['pizza', 'falafel', 'carrot cake', 'cannoli', 'ice cream', 'tea']
+print("The first  three items in the list are: ")
+print(my_foods[0:3])
+print("Three items from the middle of the list are: ")
+print(my_foods[3:5])
+print("The last three items in the list are:")
+print(my_foods[-3:])
 

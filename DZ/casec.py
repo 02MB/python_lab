@@ -177,4 +177,59 @@ print("Three items from the middle of the list are: ")
 print(my_foods[3:5])
 print("The last three items in the list are:")
 print(my_foods[-3:])
+#4-11
+my_pizza = ['pizza-1', 'pizza-2', 'pizza-3', 'pizza-4']
+friend_pizza = my_pizza[:]
+my_pizza.append('pizza-5')
+friend_pizza.append('pizza-6')
+print("My favorite pizzas are:")
+for my in my_pizza:
+    print(my)
+print("My friend's favorite pizzas are:")
+for friend in friend_pizza:
+    print(friend)
+#4-12
+my_foods = ['pizza', 'falafel', 'carrot cake']
+friend_foods = my_foods[:]
+for my in my_foods:
+    print(my)
+for friend in friend_foods:
+    print(friend)
+#4-13
+bludo = ('eda 1','eda 2','eda 3','eda 4','eda 5')
+for eda in bludo:
+    print("В меню ресторана входят блюда:")
+    print(eda)
+bludo = ('eda 1','eda 2','eda 3','eda 4','eda 5', 'eda 6', 'eda 7')
+for eda in bludo:
+    print("В обновленное меню ресторана входят следующие блюда")
+    print(eda)
+#5-1
+car = 'subaru'
+print("Is car == 'subaru'? I predict True.")
+print(car == 'subaru')
+print("\nIs car == 'audi'? I predict False.")
+print(car == 'audi')
 
+a = 100
+print(a)
+print('a => 100')
+print(a >= 100)
+print('a => 78')
+print(a >= 78)
+print('a => 50')
+print(a >= 50)
+print('a => 1')
+print(a >= 1)
+print('a => 99')
+print(a >= 99)
+print('a => 123')
+print(a >= 123)
+print('a => 1243')
+print(a >= 1243)
+print('a => 14243')
+print(a >= 14243)
+print('a => 101')
+print(a >= 101)
+#5-2
+# conditional_test.py

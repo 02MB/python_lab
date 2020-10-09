@@ -233,3 +233,50 @@ print('a => 101')
 print(a >= 101)
 #5-2
 # conditional_test.py
+#5-3
+alien_color = 'red'
+if 'green' in alien_color:
+    print("Вы заработали: " + str(5) + " очков!")
+else:
+    print("Вы не заработали очки!")
+#5-4
+alien_color = 'red'
+if "green" in alien_color:
+    a = 5
+else:
+    a = 10
+print("Вы заработали: " + str(a) + " очков!")
+#5-5
+alien_color = "1"
+b = 0
+if 'green' in alien_color:
+    b = 5
+elif "yellow" in alien_color:
+    b = 10
+elif "red" in alien_color:
+    b = 15
+
+print("ВЫЫЫ заработали: " + str(b) + " очков!")
+#5-6
+age = 65
+if age < 2:
+    text = "младенец"
+elif 4> age >= 2:
+    text = "малыш" 
+elif 13 > age >= 4:
+    text = "ребенок"
+elif 20 > age >= 13:
+    text = "подросток"
+elif 65 > age >= 20:
+    text = "взрослый"
+elif age >= 65:
+    text = "пожилой человек"
+print("Вы: " + text)
+#5-7
+favorite_fruits = ["fruits_1", "fruits_2", "fruits_3", "fruits_4", "fruits_5"]
+if "fruits_01" in favorite_fruits:
+    print("You really like bananas!")
+if "fruits_1" in favorite_fruits:
+    print("You really like fruits_1")
+
+

@@ -8,3 +8,39 @@ if 'extra cheese' in requested_toppings:
     print("Adding extra cheese.")
 
 print("\nFinished making your pizza!")
+
+print("\n\n\n\n\n\n\n")
+requested_toppings = ['mushrooms', 'green peppers', 'extra cheese']
+
+for requested_topping in requested_toppings:
+    print("Adding " + requested_topping + '.')
+print("\nFinished making your pizza!")
+
+print("\n\n\n\n\n\n\n")
+
+requested_toppings = ['mushrooms', 'green peppers', 'extra cheese']
+
+for requested_topping in requested_toppings:
+    if requested_topping == 'green peppers':
+        print("Sorry, we are out of hreen peppers right now.")
+    else:
+        print("Adding " + requested_topping + '.')
+print("\nFinished making your pizza!")
+
+
+print("\n\n\n\n\n\n\n")
+
+requested_toppings = []
+
+if requested_toppings:
+    for requested_topping in requested_toppings:
+        print("Adding " + requested_topping + ".")
+    print("\n\tFinished making your pizza!")
+else:
+    print("Are you sure you want a plain pizza?")
+
+print("\n\n\n\n\n\n\n")
+
+available_toppings = ['mushrooms', 'olives', 'green peppers',
+                        'pepperoni', 'pineapple', 'extra cheese']
+requested_toppings = ['mushrooms', 'frech fries', 'extra cheese']

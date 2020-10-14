@@ -279,4 +279,10 @@ if "fruits_01" in favorite_fruits:
 if "fruits_1" in favorite_fruits:
     print("You really like fruits_1")
 
+#6-1
+human = {'first_name': 'Max', 'last_name': 'Miko', 'age': 21, 'city': 'KHV'}
+print(human)
+#6-2
+number = {'olga': 1, 'sara': 2, 'max': 3, 'sasha': 4, "pasha": 5}
+
 

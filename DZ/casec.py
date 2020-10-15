@@ -284,5 +284,15 @@ human = {'first_name': 'Max', 'last_name': 'Miko', 'age': 21, 'city': 'KHV'}
 print(human)
 #6-2
 number = {'olga': 1, 'sara': 2, 'max': 3, 'sasha': 4, "pasha": 5}
+print("Любимое число Ольги: " + str(number['olga']))
+print("Любимое число sara: " + str(number['sara']))
+print("Любимое число max: " + str(number['max']))
+print("Любимое число sasha: " + str(number['sasha']))
+print("Любимое число pasha: " + str(number['pasha']))
+#6-3
+text = {'aaa': 'aaaa aaaa aaaaaaaaaa aaaaaaaa aaaa', 'bbb': 'bb bbbb b bbbbb bbbbbbbb b', 'ccc': 'cccc cc ccccc cccc c'}
+print('\n\n\nAAA: ' + text['aaa'])
+print('\n\n\nBBB: ' + text['bbb'])
+print('\n\n\nCCC: ' + text['ccc'])
 
 

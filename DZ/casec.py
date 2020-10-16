@@ -294,5 +294,8 @@ text = {'aaa': 'aaaa aaaa aaaaaaaaaa aaaaaaaa aaaa', 'bbb': 'bb bbbb b bbbbb bbb
 print('\n\n\nAAA: ' + text['aaa'])
 print('\n\n\nBBB: ' + text['bbb'])
 print('\n\n\nCCC: ' + text['ccc'])
+#6-4
+text = {'aaa': 'aaaa aaaa aaaaaaaaaa aaaaaaaa aaaa', 'bbb': 'bb bbbb b bbbbb bbbbbbbb b', 'ccc': 'cccc cc ccccc cccc c'}
+for a in text
 
 

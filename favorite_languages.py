@@ -5,7 +5,7 @@ favorite_languages = {
     'phil': 'python',
 }
 print("Sarah's favorite language is " +
-     favorite_languages['sarah'].title() +
+      favorite_languages['sarah'].title() +
       '.')
 
 
@@ -23,8 +23,8 @@ for name in favorite_languages.keys():
 
     if name in friends:
         print(" Hi " + name.title() +
-        ", I see your favorite language is " +
-        favorite_languages[name].title() + "!")
+              ", I see your favorite language is " +
+              favorite_languages[name].title() + "!")
 
 
 name_01 = 'erin'
@@ -43,5 +43,22 @@ print("The following languages have been mentioned:")
 for language in set(favorite_languages.values()):
     print(language.title())
 
+favorite_languages = {
+    'jen': ['puthon', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'haskell']
+}
 
+for a, b in favorite_languages.items():
+    print('\n' + a.title() + "'s favorite languages are:")
+    for bb in b:
+        print('\t' + str(bb).title())
 
+for a, b in favorite_languages.items():
+    if len(b) < 2:
+        print(a.title() + "'s favorite language is " + str(b).title())
+    else:
+    print('\n' + a.title() + "'s favorite languages are:")
+    for bb in b:
+        print('\t' + str(bb).title())

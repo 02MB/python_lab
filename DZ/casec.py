@@ -1,5 +1,5 @@
 # Тут будет Домашнии задания из книги: Изучаем Python программирование
-
+'''
 # 2-3
 name_user = 'Maksim Petrovich'
 print("Hello " + name_user + ", would like to learm Python today?")
@@ -381,3 +381,59 @@ for a, b in cities.items():
     print("\tЭтот город надохидся в стране: " + b['contry'])
     print("\tНаселение составляет: " + b['population'])
     print("\tИнтересный факт: " + b['fact'])
+# 7-1
+car = input("You car? ")
+print('Let me see if I can find you a ' + car)
+# 7-2
+stol = input("На сколько человек Вы хотите заказать столик? ")
+stol = int(stol)
+if stol > 8:
+    print("У Вас большой заказа, придется немного подождать")
+else:
+    print("Ваш столик готов!")
+
+# тут тройные ковычки это комментарий целого блока
+
+
+# 7-3
+number = input("Введите число кратное 10. Ваше число: ")
+number = int(number)
+
+if number % 10 == 0:
+    print("Ваше число кратное!")
+else:
+    print("Ваше число не кратное!")
+
+
+# 7-4
+text = ("\nУкажите какое дополнение к пицце Вы хотите: ")
+text += ("\t\nДля выхода введите 'stop' ")
+message = ''
+while message != 'stop':
+    message = input(text)
+    print(message + ", добавлено в заказ!")
+
+'''
+# 7-5
+text = ("\n\tУкажите Ваш возрат: ")
+
+a = "Бесплатно"
+b = "$10"
+c = "$15"
+flag = True
+while flag:
+    # while True:
+    x = input(text)
+    x = int(x)
+    if x <= 3:
+        print("Цена билета составляет: " + a)
+        # break
+        flag = False
+    elif 3 <= x <= 12:
+        print("Цена билета составляет: " + b)
+        # break
+        flag = False
+    elif x >= 12:
+        print("Цена билета составляет: " + c)
+        # break
+        flag = False

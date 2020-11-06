@@ -413,8 +413,8 @@ while message != 'stop':
     message = input(text)
     print(message + ", добавлено в заказ!")
 
-'''
-# 7-5
+
+# 7-5 и 7-6
 text = ("\n\tУкажите Ваш возрат: ")
 
 a = "Бесплатно"
@@ -437,3 +437,45 @@ while flag:
         print("Цена билета составляет: " + c)
         # break
         flag = False
+
+
+
+# 7-8
+sandwich_orders = ['pbj ', 'pastrami ', 'ham ', 'blt ',
+                   'pastrami ', 'knuckle ', 'pastrami ', 'tuna']
+finished_sandwiches = []
+
+while sandwich_orders:
+    delete = sandwich_orders.pop()
+    print("I made your " + delete.title() + " sandwich")
+    finished_sandwiches.append(delete)
+print("Мы изготовили вот такие сендвичи: " + str(finished_sandwiches))
+
+# 7-9
+sandwich_orders = ['pbj', 'pastrami', 'ham', 'blt',
+                   'pastrami', 'knuckle', 'pastrami', 'tuna']
+finished_sandwiches = []
+
+while 'pastrami' in sandwich_orders:
+    sandwich_orders.remove('pastrami')
+while sandwich_orders:
+    delete = sandwich_orders.pop()
+    print("I made your " + delete.title() + " sandwich")
+    finished_sandwiches.append(delete)
+print("Мы изготовили вот такие сендвичи: " + str(finished_sandwiches))
+
+'''
+
+# 7-10
+opros = {}
+flag = True
+while flag:
+    user = input("\n\t Представьтесь пожалуйста! ")
+    dream = input("Какая Ваша мечта? ")
+    opros[user] = dream
+    stop = input("\n\t\tЧто бы остановить опрос напишите 'No': ")
+    if stop == 'no':
+        flag = False
+print(opros)
+for a, b in opros.items():
+    print("\n\tПользователь: " + str(a) + " Мечта: " + str(b))

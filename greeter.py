@@ -7,9 +7,18 @@
 # name = input(promt)
 # print("n\Hello, " + name + "!")
 
-age = input("How old are you? ")
-age = int(age)
-if age >= 18:
-    print("age >= 18")
-else:
-    print("Эмалолетка")
+# age = input("How old are you? ")
+# age = int(age)
+# if age >= 18:
+#     print("age >= 18")
+# else:
+#     print("Эмалолетка")
+
+def great_user(username, username_2):
+    print("hello, " + username.title() + "! " + username_2.title())
+
+
+great_user('maaaaax', 'dfddfdf')
+username = input('\nВведите имя 1: ')
+username_2 = input('\nВведите имя 2: ')
+great_user(username, username_2)

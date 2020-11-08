@@ -464,7 +464,7 @@ while sandwich_orders:
     finished_sandwiches.append(delete)
 print("Мы изготовили вот такие сендвичи: " + str(finished_sandwiches))
 
-'''
+
 
 # 7-10
 opros = {}
@@ -479,3 +479,69 @@ while flag:
 print(opros)
 for a, b in opros.items():
     print("\n\tПользователь: " + str(a) + " Мечта: " + str(b))
+
+
+
+
+# 8-1
+
+
+def display_message():
+    print("Мы изучаем функции")
+
+
+display_message()
+
+# 8-2
+
+
+def favorite_book(my_book):
+    print("\n\tOne of my favorite books is " + my_book.title())
+
+
+favorite_book("Alice in Wonderland")
+my_book = 'dsdsd'
+favorite_book(my_book)
+
+
+# страница 142
+
+# 8-3
+
+
+def make_shirt(a, b):
+    print("\nРазмер Вашей футболки: " + a)
+    print("Текст который будет напечатан на футболке: " + b)
+
+
+make_shirt("L", 'dfdfdfdf')
+make_shirt(b="text", a="XXL")
+
+
+
+
+# 8-4
+
+
+def make_shirt(b="I Love Python", a="L"):
+    print("\nРазмер Вашей футболки: " + a)
+    print("Текст который будет напечатан на футболке: " + b)
+
+
+make_shirt("XL", 'dfdfdfdf')
+make_shirt(b="text", a="XXL")
+make_shirt("dsdss")
+make_shirt()
+
+'''
+
+# 8-4
+
+
+def describe_city(city, country="USA"):
+    print("\n\tГород: " + city + ", находится в стране: " + country)
+
+
+describe_city("MASKVA")
+describe_city("BOSTON", "RUSSIA")
+describe_city("dsssd", "RsdsdsdwsUSSIA")

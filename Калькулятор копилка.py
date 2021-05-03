@@ -24,3 +24,6 @@ for b in week:
     b = a + c
     c = b
     print("Текущая неделя: " + str(c))
+
+
+    
